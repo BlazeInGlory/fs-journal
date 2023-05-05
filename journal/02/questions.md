@@ -1,15 +1,21 @@
 # Intro to JavaScript
 01. Which keywords are used to declare a variable in JavaScript?
 
-    > | ANSWER HERE |
+  let, var, if(?)
 
 02. What is the definition of a function?
 
-    > | ANSWER HERE |
+basically making arguments that perform tasks for you, an input for an output.
 
 03. What are the `SOLID` principles?
 
-    > | ANSWER HERE |
+single responsibility principle,
+open closed principle,
+liskov substitution principle,
+interface segregation principle,
+dependency inversion principle
+
+(i'm gonna be honest, i had to look these up, but I read up on each of them and became somewhat familiar with them)
 
 04. Given this array: How could you remove the `pineapple`?
 
@@ -17,7 +23,7 @@
     let fruit = ['apple', 'banana', 'pineapple', 'orange', 'strawberry']
     ```
 
-    > | ANSWER HERE |
+list [0, 1, 3, 4]
 
 05. Given these two objects: How could you add each to the others friends arrays?
 
@@ -34,24 +40,29 @@
     }
     ```
 
-    > | ANSWER HERE |
+  push()
 
 06. Give an example of a JavaScript `Conditional`:
 
-    > | ANSWER HERE |
+if x <= 13
+console.log(x)
 
 07. What is the main difference between `parameters` and `arguments`?
 
-    > | ANSWER HERE |
+ objects vs. values I'm pretty sure.
 
 08. Instead of writing everything to the console, what is a better way to debug your code?
 
-    > | ANSWER HERE |
+Literally type debugging in your script, and then play/pause each step until you find the issue.
 
 09. What is the difference between a `primitive` value and a `reference` value?
 
-    > | ANSWER HERE |
+primitive is more specific, reference is like the whole value of something.
 
 10. Demonstrate a loop that prints the numbers between -100 and 100?
 
-    > | ANSWER HERE |
+x = 100
+for (x <= 100);
+x--
+for (x >= -100);
+x++
