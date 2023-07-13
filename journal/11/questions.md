@@ -55,7 +55,7 @@
   WHERE id = @patient_doctorsId;";
   List<Patient> patients = _db.Query<Doctors, Patients, Patients>(sql, (doctors, patient) => 
   {
-  patient.patient_doctorId = patient_member.Id;
+  patient.doctorId = patient.Id;
   return patient;
   }, new { doctorId }).ToList();
   return patients;
